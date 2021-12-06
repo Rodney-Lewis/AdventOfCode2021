@@ -21,7 +21,7 @@ class SonarSweepSolution {
 
   void problem1() {
     int counter = 0;
-    readFileInput("Day1/input.txt");
+    readFileInput("Day1/_input.txt");
 
     for (int i = 1; i < input.size(); i++) {
       if (Integer.parseInt(input.get(i - 1)) < Integer.parseInt(input.get(i))) {
@@ -35,7 +35,7 @@ class SonarSweepSolution {
     int counter = 0;
     int current = 0;
     int previous = 0;
-    readFileInput("Day1/input.txt");
+    readFileInput("Day1/_input.txt");
 
     for (int i = 1; i < input.size() - 2; i++) {
       previous = Integer.parseInt(input.get(i - 1)) + Integer.parseInt(input.get(i)) + Integer.parseInt(input.get(i + 1));

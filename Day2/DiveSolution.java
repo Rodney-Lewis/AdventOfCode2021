@@ -36,7 +36,7 @@ public class DiveSolution {
     int depth = 0;
     int horizontalPosition = 0;
 
-    readFileInput("Day2/input.txt");
+    readFileInput("Day2/_input.txt");
     for (int i = 0; i < commands.size(); i++) {
       switch (commands.get(i)) {
         case "forward":
@@ -58,7 +58,7 @@ public class DiveSolution {
     int horizontalPosition = 0;
     int aim = 0;
 
-    readFileInput("Day2/input.txt");
+    readFileInput("Day2/_input.txt");
     for (int i = 0; i < commands.size(); i++) {
       switch (commands.get(i)) {
         case "forward":
