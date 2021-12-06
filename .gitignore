@@ -138,3 +138,5 @@ dmypy.json
 hs_err_pid*
 
 .vscode/
+
+out/
